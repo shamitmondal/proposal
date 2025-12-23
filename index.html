@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Love Proposal</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- CSS Link -->
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<span class="flower" style="left:10%;animation-duration:8s">🌸</span>
+<span class="flower" style="left:30%;animation-duration:10s">🌺</span>
+<span class="flower" style="left:50%;animation-duration:7s">🌼</span>
+<span class="flower" style="left:70%;animation-duration:9s">🌷</span>
+<span class="flower" style="left:90%;animation-duration:11s">💐</span>
+
+<div class="container">
+
+    <div id="page1">
+        <h2>Enter your Name 💖</h2>
+        <input type="text" id="girlName" placeholder="Enter your name">
+        <button class="btn-primary" onclick="goQuestion()">Next ➡️</button>
+    </div>
+
+    <div id="page2" class="hidden">
+        <h1 id="questionText"></h1>
+
+        <div class="buttons">
+            <button class="btn-primary" id="yesBtn">Yes 💕</button>
+            <button class="btn-secondary" id="noBtn">No 💔</button>
+        </div>
+    </div>
+
+    <div id="page3" class="hidden">
+        <h1>💌 From My Heart</h1>
+        <div class="letter" id="letterText"></div>
+    </div>
+
+</div>
+
+<!-- JavaScript Link -->
+<script src="script.js"></script>
+</body>
+</html>
